@@ -1,7 +1,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    background: #4a4444de
+    /* background: #4a4444de */
+    background-image: url(../img/gray-background-3.jpg);
+    width: 99%;
+    background-size: 100%;
+    
 
 }
 
@@ -26,7 +30,20 @@ body {
     transition-duration: 0.4s;
 }
 /* ----------------hoveeer------------ */
+
+.box1{
+    transition-duration: 0.4s;
+}
+.box2{
+    transition-duration: 0.4s;
+}
+.box3{
+    transition-duration: 0.4s;
+}
+
+
 .box1:hover{
+ 
     background-color: #ff0c71;
     color: white;
     border-radius: 22px;
